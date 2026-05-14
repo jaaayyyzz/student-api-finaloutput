@@ -7,7 +7,7 @@ from pydantic import BaseModel
 from typing import List
 
 # --- AUTHENTICATION SETUP ---
-API_KEY = "my_secret_student_key_123"  # This is the password for your API
+API_KEY = "password123"
 API_KEY_NAME = "access_token"
 api_key_header = APIKeyHeader(name=API_KEY_NAME, auto_error=False)
 
